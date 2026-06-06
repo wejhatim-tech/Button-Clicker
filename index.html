@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button id="login-btn" onclick="login(this)">
+        Login
+        </button>
+    </div>
+
+<!-- Main Content -->
+    <div class="container">
+        <!-- Left Side -->
+        <div class="left-side">
+            <!-- First Card -->
+            <div class="card">
+                <div class="word-info">
+                    <h2>ninja</h2>
+                    <p><i>noun</i></p>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button onclick="showAlert(this)">
+                        13 likes
+                    </button>
+                </div>
+                <div class="word-meaning">
+                    <p>
+                        A practitioner skilled in the <br>
+                        <span class="highlight">Japanese</span>
+                        art of
+                        <span class="highlight">ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card">
+                <div class="word-info">
+                    <h2>ninja</h2>
+                    <p><i>noun</i></p>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button onclick="showAlert(this)">
+                        37 likes
+                    </button>
+                </div>
+                <div class="word-meaning">
+                    <p>
+                        A
+                        <span class="highlight">programmer</span>
+                        who breaks <br> down problems with
+                        <span class="highlight">zen</span> -like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="right-side">
+            <div class="definition-box">
+                <h2>
+                Dojonary is defined by YOU
+                </h2>
+                <button id="add-btn" onclick="removeButton(this)">
+                Add Definition
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>  
+</body>
+</html>
